@@ -1,0 +1,31 @@
+{
+  "name": "jsexel",
+  "version": "1.0.0",
+  "description": "Pure JavaScript Exel application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlyaBielov/JSExel.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "exel"
+  ],
+  "author": "Ilya Bielov <ilyabielov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IlyaBielov/JSExel/issues"
+  },
+  "homepage": "https://github.com/IlyaBielov/JSExel#readme",
+  "private": "true",
+  "devDependencies": {
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
